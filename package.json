@@ -11,7 +11,7 @@
   "bugs": "https://github.com/i18next/i18next-node-fs-backend/issues",
   "dependencies": {
     "js-yaml": "3.13.1",
-    "json5": "2.0.0"
+    "json5": ">=2.2.3"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -48,5 +48,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lineaje-labs-gos/i18next-i18next-node-fs-backend"
+  },
+  "overrides": {
+    "json5": ">=2.2.3"
+  },
+  "resolutions": {
+    "json5": ">=2.2.3"
   }
 }
